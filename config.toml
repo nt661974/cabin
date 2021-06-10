@@ -1,0 +1,76 @@
+baseURL = "http://www.haxhub.xyz/"
+languageCode = "en-au"
+title = "Hugooo:"
+theme = "hugo-coder"
+
+paginate = 20
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+disqusShortname = ""
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about hugo"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/about/about-me"
+    weight = -110
+
+  [[menu.main]]
+    name = "getting started"
+    post = "<span class='alert'>New!</span>"
+    pre = "<i class='fa fa-road'></i>"
+    url = "/getting-started/"
+    weight = -100
+
+  [[menu.main]]
+    name = "this is me"
+    post = "<span class='alert'>New!</span>"
+    pre = "<i class='fa fa-road'></i>"
+    url = "/getting-started/"
+    weight = -100
+
+[params]
+  author = "Paarangat Jain"
+  info = "A coder's insight into coding"
+  description = "Paarangat Jain's personal website"
+  keywords = "blog,developer,personal"
+  #gravatar = "paarangatj@gmail.com"
+  avatarurl = "images/avatar.jpg"
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  footercontent = "Enter a text here."
+  hideFooter = false
+  hideCredits = false
+  hideCopyright = false
+  since = 2019
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/paarangat"
+[[params.social]]
+  name = "Gitlab"
+  icon = "fa fa-gitlab fa-2x"
+  weight = 2
+  url = "https://gitlab.com/paarangat/"
+
